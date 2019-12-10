@@ -31,6 +31,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnPalindrome = findViewById(R.id.btnPalindrome);
         btnSI = findViewById(R.id.btnSI);
         btnSwapping = findViewById(R.id.btnSwapping);
+
+        btnAutomorphic.setOnClickListener(this);
+        btnPalindrome.setOnClickListener(this);
+        btnArmstrong.setOnClickListener(this);
+        btnCircle.setOnClickListener(this);
+        btnSI.setOnClickListener(this);
+        btnSwapping.setOnClickListener(this);
     }
 
     @Override
@@ -44,33 +51,35 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Area_of_Circle circle = new Area_of_Circle();
                 fragmentTransaction.replace(R.id.fragmentContainer,circle);
                 fragmentTransaction.commit();
+                break;
 
             case R.id.btnArmstrong:
                 Armstrong armstrong = new Armstrong();
                 fragmentTransaction.replace(R.id.fragmentContainer,armstrong);
                 fragmentTransaction.commit();
+                break;
 
             case R.id.btnAutomorphic:
                 Automorphic automorphic = new Automorphic();
                 fragmentTransaction.replace(R.id.fragmentContainer,automorphic);
                 fragmentTransaction.commit();
+                break;
 
             case R.id.btnPalindrome:
                 Palindrome palindrome = new Palindrome();
                 fragmentTransaction.replace(R.id.fragmentContainer,palindrome);
                 fragmentTransaction.commit();
-
+                break;
             case R.id.btnSI:
                 SI si = new SI();
                 fragmentTransaction.replace(R.id.fragmentContainer,si);
                 fragmentTransaction.commit();
-
+                break;
             case R.id.btnSwapping:
                 Swapping swapping = new Swapping();
                 fragmentTransaction.replace(R.id.fragmentContainer,swapping);
                 fragmentTransaction.commit();
-
-
+                break;
         }
         }
     }
