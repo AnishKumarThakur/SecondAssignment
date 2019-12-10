@@ -33,7 +33,7 @@ public class Automorphic extends Fragment implements View.OnClickListener{
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_automorphic, container, false);
         etAutomorphic = view.findViewById(R.id.etAutomorphic);
-        btnAutomorphic = view.findViewById(R.id.etAutomorphic);
+        btnAutomorphic = view.findViewById(R.id.btnAutomorphic);
         btnAutomorphic.setOnClickListener(this);
         return view;
     }
