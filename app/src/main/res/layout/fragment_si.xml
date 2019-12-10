@@ -23,6 +23,7 @@
         />
 
     <EditText
+        android:id="@+id/etPrinciple"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter a number"
@@ -37,6 +38,7 @@
         />
 
     <EditText
+        android:id="@+id/etTime"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter a number"
@@ -51,12 +53,14 @@
         />
 
     <EditText
+        android:id="@+id/etRate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter a number"
         android:textSize="25dp"
         />
     <Button
+        android:id="@+id/btnSI"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calculate"
