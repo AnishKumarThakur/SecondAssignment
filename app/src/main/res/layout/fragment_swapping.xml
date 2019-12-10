@@ -14,12 +14,36 @@
         android:textSize="35dp"
         android:textStyle="bold"
         android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number A"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
 
     <EditText
-        android:id="@+id/etSwapping"
+        android:id="@+id/etfirstNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter a number"
+        android:inputType="number"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number B"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/etsecondSwapping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a second number"
+        android:inputType="number"
         android:textSize="25dp"
         android:textAlignment="center"
         />

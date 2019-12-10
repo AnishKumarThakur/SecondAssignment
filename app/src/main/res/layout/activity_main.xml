@@ -31,7 +31,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tvCalculate" />
 
     <Button
-        android:id="@+id/btnPalendrome"
+        android:id="@+id/btnPalindrome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -68,7 +68,7 @@
         android:layout_marginTop="84dp"
         android:text="Armstrong"
         app:layout_constraintStart_toEndOf="@+id/btnAutomorphic"
-        app:layout_constraintTop_toBottomOf="@+id/btnPalendrome" />
+        app:layout_constraintTop_toBottomOf="@+id/btnPalindrome" />
 
     <Button
         android:id="@+id/btnSI"
@@ -79,14 +79,17 @@
         android:text="Simple Intrest"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnSwapping" />
+
     <LinearLayout
         android:id="@+id/fragmentContainer"
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="336dp"
+        android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        ></LinearLayout>
+        app:layout_constraintTop_toTopOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
