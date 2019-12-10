@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnCircle =findViewById(R.id.btnCircle);
         btnArmstrong = findViewById(R.id.btnArmstrong);
         btnAutomorphic = findViewById(R.id.btnAutomorphic);
-        btnPalindrome = findViewById(R.id.btnPalendrome);
+        btnPalindrome = findViewById(R.id.btnPalindrome);
         btnSI = findViewById(R.id.btnSI);
         btnSwapping = findViewById(R.id.btnSwapping);
     }
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 fragmentTransaction.replace(R.id.fragmentContainer,automorphic);
                 fragmentTransaction.commit();
 
-            case R.id.btnPalendrome:
+            case R.id.btnPalindrome:
                 Palindrome palindrome = new Palindrome();
                 fragmentTransaction.replace(R.id.fragmentContainer,palindrome);
                 fragmentTransaction.commit();
